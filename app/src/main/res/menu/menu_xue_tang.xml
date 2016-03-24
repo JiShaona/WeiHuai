@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shaonaji.test.XueTang">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/stop"
+                android:icon="@drawable/stop"
+                android:title="停止播放" />
+
+            <item
+                android:id="@+id/start"
+                android:icon="@drawable/play"
+                android:title="播放"/>
+            <item
+                android:id="@+id/scribe"
+                android:icon="@drawable/scribe"
+                android:title="描述"/>
+            <item
+                android:id="@+id/add"
+                android:icon="@drawable/add"
+                android:title="上传图片"/>
+
+        </menu>
+    </item>
+
+</menu>

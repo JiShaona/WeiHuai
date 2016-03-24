@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/xuetang"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.65"
+        android:background="@color/blue"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+
+        android:text="学堂"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/dongman"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@color/purple"
+                android:text="动漫"
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/feizaoju"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="@color/light_grass"
+                android:text="肥皂剧"
+                android:textSize="18sp"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/wo"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:textSize="18sp"
+                    android:text="我"
+                    android:background="@color/grass"
+                    />
+                <Button
+                    android:id="@+id/lingshi"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:background="@color/orange"
+                    android:text="零食"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/dianyou"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:background="@color/pink"
+                android:text="电游"
+                android:textSize="18sp"/>
+            <Button
+                android:id="@+id/liyu"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.68"
+                android:background="@color/grass"
+                android:text="俚语"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
